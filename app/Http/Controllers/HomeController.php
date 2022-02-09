@@ -26,8 +26,8 @@ class HomeController extends Controller
         $data=[
             'greetings'=>'Selamat Datang',
             'admin'=>'Di Halaman Administator',
-            'member'=>'Di Halaman Member'
+            'member'=>'Di Halaman Member',
         ];
-        return view('home');
+        return view('home2', $data);
     }
 }
